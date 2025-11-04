@@ -15,7 +15,7 @@ for i in range(31):
     valordatemperatura = np.round(valordatemperatura,1)
     temperaturas = np.append(temperaturas ,valordatemperatura)
     temperaturas = np.round(temperaturas,1)
-    temperaturas = np.sort(temperaturas)
+ #   temperaturas = np.sort(temperaturas)
     dias = np.append(dias, i+1)
     dias = dias.astype(int)
 
